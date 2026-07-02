@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  max-width: 650px;
+  max-width: 860px;
   margin: 40px auto;
   padding: 0 10px 60px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
@@ -87,4 +87,46 @@ footer {
 .book-notes {
   font-size: 0.9em;
   color: #555;
+}
+
+/* Two-column layout: reading content on the left, nav sidebar on the right */
+.layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.content {
+  flex: 1 1 auto;
+  min-width: 0;   /* lets the content column shrink instead of overflowing */
+}
+
+.sidebar {
+  flex: 0 0 150px;
+}
+
+.sidebar nav {
+  margin-bottom: 0;
+}
+
+/* Override the default horizontal nav so links stack vertically in the sidebar */
+.sidebar nav ul {
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* On narrow screens, collapse to a single column with the nav on top */
+@media (max-width: 640px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    order: -1;
+    flex-basis: auto;
+  }
+  .sidebar nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }

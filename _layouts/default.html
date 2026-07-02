@@ -7,25 +7,31 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<header>
-  <h1>Nicholas Dumont</h1>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/projects/">Projects</a></li>
-      <li><a href="/books/">Bookshelf</a></li>
-      <li><a href="/energy/">Energy</a></li>
-    </ul>
-  </nav>
-</header>
+<div class="layout">
 
-<main>
+  <div class="content">
+    <main>
 {{ content }}
-</main>
+    </main>
 
-<footer>
-  <span class="muted">{{ page.footer | default: "Last updated: 2026-07-01." }}</span>
-</footer>
+    <footer>
+      <span class="muted">{{ page.footer | default: "Last updated: 2026-07-01." }}</span>
+    </footer>
+  </div>
+
+  <header class="sidebar">
+    <h1>Nicholas Dumont</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/books/">Bookshelf</a></li>
+        <li><a href="/energy/">Energy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+</div>
 </body>
 </html>
