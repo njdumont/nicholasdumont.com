@@ -16,8 +16,8 @@ public slice of what I’m working on and thinking about.
 
 ## Quick links
 
-- [Current projects](projects.html)
-- [Reading](reading.html)
-- [Bookshelf](books.html)
-- [Energy & markets](energy.html)
-- [Notes & ideas](notes.html)
+- [Current projects](/projects/)
+- [Reading](/reading/)
+- [Bookshelf](/books/)
+- [Energy & markets](/energy/)
+- [Notes & ideas](/notes/)
