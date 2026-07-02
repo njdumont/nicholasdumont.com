@@ -28,7 +28,7 @@ on the open internet, not the full story.
 
 ## Elsewhere
 
-- [Email](mailto:dumontnjd24@gmail.com) – the best way to reach me.
-- [GitHub](https://github.com/njdumont) – projects and experiments.
-- [X](https://x.com/maschepotatoes) – occasional thoughts.
-- [LinkedIn](https://www.linkedin.com/in/njdumont) – standard professional details.
+- [Email](mailto:dumontnjd24@gmail.com)
+- [GitHub](https://github.com/njdumont)
+- [X](https://x.com/maschepotatoes)
+- [LinkedIn](https://www.linkedin.com/in/njdumont)

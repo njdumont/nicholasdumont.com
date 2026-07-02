@@ -4,9 +4,7 @@ title: Nicholas Dumont
 footer: 'Email: <a href="mailto:dumontnjd24@gmail.com">dumontnjd24@gmail.com</a>'
 ---
 
-I trade electricity in U.S. power markets and build long-term curricula for
-myself in math, statistics, and finance. This site is where I keep a small,
-public slice of what I’m working on and thinking about.
+I trade electricity in U.S. power markets and am interested in math, statistics, and finance. This site is half for fun and half to give a public view into what I’m working on and thinking about.
 
 ## What I'm doing now
 
@@ -17,7 +15,5 @@ public slice of what I’m working on and thinking about.
 ## Quick links
 
 - [Current projects](/projects/)
-- [Reading](/reading/)
 - [Bookshelf](/books/)
 - [Energy & markets](/energy/)
-- [Notes & ideas](/notes/)

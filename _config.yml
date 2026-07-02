@@ -1,7 +1,7 @@
 # Site settings for GitHub Pages' built-in Jekyll builder.
 # No theme is set, so pages use our own _layouts/default.html.
 title: Nicholas Dumont
-description: Personal site — power markets, quantitative learning, and notes.
+description: Personal site
 
 # Clean URLs: pages output as /about/ instead of /about.html
 permalink: pretty
